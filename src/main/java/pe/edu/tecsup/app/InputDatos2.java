@@ -12,7 +12,7 @@ public class InputDatos2 {
         //Data entry
         name=JOptionPane.showInputDialog(null, "Enter your name: ");
         String age2 = JOptionPane.showInputDialog(null, "Enter your age: ");
-        age = Integer.parseInt(age2);
+        age = Integer.parseInt(age2);   //Method that allows us to transform a string data point to int data
 
         //Data output
         JOptionPane.showMessageDialog(null, "Name: " + name + "\n" +
