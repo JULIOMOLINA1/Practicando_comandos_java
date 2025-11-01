@@ -7,7 +7,7 @@ public class InputDatos {
 
         String nombre;
         int edad;
-
+                            //Scanner method
         //Data entry
         Scanner entrada = new Scanner(System.in);
         System.out.println("Escribe tu nombre...");
